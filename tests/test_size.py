@@ -1,9 +1,8 @@
 import time
-
 from pages.demoqa import DemoQa
 
 
-def test_check_title(browser):
+def test_size(browser):
     demoqa = DemoQa(browser)
 
     demoqa.visit()
