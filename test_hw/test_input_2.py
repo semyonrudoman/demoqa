@@ -19,7 +19,9 @@ def test_input_1(browser):
 
     '''ТЕСТ КЕЙС'''
     assert input.btn_next.get_dom_attribute('disabled')
+    assert not input.btn_next.click()
     assert input.btn_prev.get_dom_attribute('disabled')
+    assert not input.btn_prev.click()
 
     for i in range(3):
         input.btn_add.click()

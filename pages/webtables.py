@@ -14,7 +14,6 @@ class WebTablesPage(BasePage):
         self.email_inp = WebElement(driver, '#userEmail')
         self.age_inp = WebElement(driver, '#age')
         self.salary_inp = WebElement(driver, '#salary')
-        self.salary_inp = WebElement(driver, '#salary')
         self.dep_inp = WebElement(driver, '#department')
         self.btn_submit = WebElement(driver, '#submit')
         self.first_name = WebElement(driver, 'div:nth-child(4) > div > div:nth-child(1)')
