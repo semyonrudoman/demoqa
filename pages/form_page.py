@@ -12,8 +12,12 @@ class FormPage(BasePage):
         self.user_email = WebElement(driver, '#userEmail')
         self.gender_radio_1 = WebElement(driver, '#gender-radio-1')
         self.user_number = WebElement(driver, '#userNumber')
+        self.hobbies_1 = WebElement(driver, '#hobbies-checkbox-1')
+        self.addres = WebElement(driver, '#currentAddress')
         self.btn_submit = WebElement(driver, '#submit')
         self.modal_dialog = WebElement(driver, 'body > div.fade.modal.show > div')
         self.btn_close_modal = WebElement(driver, '#closeLargeModal')
+        self.user_form = WebElement(driver, '#userForm')
+        self.state = WebElement(driver, '#state')
 
 
