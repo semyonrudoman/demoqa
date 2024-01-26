@@ -2,6 +2,8 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
+
+
 class WebElement:
     def __init__(self, driver, locator='', locator_type='css'):
         self.driver = driver
@@ -80,3 +82,6 @@ class WebElement:
 
     def check_css(self, style, value=' '):
         return self.find_element().value_of_css_property(style) == value
+
+    def select(self, value):
+        return Select(self.find_element()).select_by_visible_text(value)

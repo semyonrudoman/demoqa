@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="507a8652-5dd9-42ed-b55b-5d15c7367830" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/add_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/add_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_koup/test_btn_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_koup/test_btn_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_css.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_css.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/components.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/components.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/webtables.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/webtables.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706292929561</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1706302368875</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706302368875</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

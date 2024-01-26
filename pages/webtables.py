@@ -27,4 +27,9 @@ class WebTablesPage(BasePage):
         self.btn_delete = WebElement(driver, '.action-buttons > span:nth-child(2)')
         self.btn_delete_1 = WebElement(driver, '#delete-record-4')
         self.btn_edit = WebElement(driver, '#edit-record-4')
+        self.n_of_rows = WebElement(driver, 'span.select-wrap.-pageSizeOptions > select')
+        self.btn_prev = WebElement(driver, 'div.-previous > button')
+        self.btn_next = WebElement(driver, 'div.-next > button')
+        self.ttl_pages = WebElement(driver, '.-totalPages')
+        self.crt_page = WebElement(driver, 'div > input[type=number]')
 
