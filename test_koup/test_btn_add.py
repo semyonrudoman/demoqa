@@ -11,7 +11,6 @@ def test_btn_add(browser):
     assert kp.equal_url()
     assert kp.link_add.get_text() == 'Add/Remove Elements'
     kp.link_add.click()
-    time.sleep(3)
     assert add.equal_url()
 
     assert add.btn_add.get_text() == 'Add Element'

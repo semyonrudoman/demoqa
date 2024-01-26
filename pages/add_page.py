@@ -9,7 +9,3 @@ class AddPage(BasePage):
 
         self.btn_add = WebElement(driver, '#content > div > button')
         self.delete = WebElement(driver, '#elements > button')
-        # self.delete_add_1 = WebElement(driver, '#elements > button:nth-child(1)')
-        # self.delete_add_2 = WebElement(driver, '#elements > button:nth-child(2)')
-        # self.delete_add_3 = WebElement(driver, '#elements > button:nth-child(3)')
-        # self.delete_add_4 = WebElement(driver, '#elements > button:nth-child(4)')
