@@ -31,4 +31,7 @@ class WebTablesPage(BasePage):
         self.btn_next = WebElement(driver, 'div.-next > button')
         self.ttl_pages = WebElement(driver, '.-totalPages')
         self.crt_page = WebElement(driver, 'div > input[type=number]')
+        self.first_name_title = WebElement(driver, 'div.rt-thead.-header > div > div:nth-child(1)')
+        self.table_body = WebElement(driver, '.rt-tbody')
+
 
