@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="507a8652-5dd9-42ed-b55b-5d15c7367830" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/alerts.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/alerts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/demoqa.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/demoqa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/modal_dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/modal_dialogs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/webtables.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/webtables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_hw/test_page_dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_hw/test_page_dialogs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_alert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_seo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_seo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +42,7 @@
     &quot;Python tests.Python tests in test_btn_add.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in text.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.check.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kek.executor&quot;: &quot;Run&quot;,
     &quot;Python.text.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -69,7 +62,7 @@
       <recent name="C:\Users\semyo\PycharmProjects\pythonProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.check">
+  <component name="RunManager" selected="Python.kek">
     <configuration name="check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <option name="ENV_FILES" value="" />
@@ -84,6 +77,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kek" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/kek.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,6 +161,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kek" />
         <item itemvalue="Python.check" />
         <item itemvalue="Python tests.Python tests in test_btn_add.py" />
         <item itemvalue="Python tests.Python tests for test_seo.test_check_title" />
@@ -265,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706394686562</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1706480112705</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706480112705</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
